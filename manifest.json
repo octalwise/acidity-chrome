@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "Acidity",
+  "description": "Navigate to archived versions of pages.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "images/icon.png",
+    "512": "images/icon.png"
+  },
+  "options_ui": {
+    "page": "settings/settings.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Navigate to archived page."
+    }
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/toolbar-icon.png",
+      "48": "images/toolbar-icon.png"
+    }
+  },
+  "permissions": ["activeTab", "tabs", "storage", "contextMenus"]
+}

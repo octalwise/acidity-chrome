@@ -1,0 +1,120 @@
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font: -apple-system-short-body;
+  font-size:   15px;
+  line-height: 1.55;
+
+  margin: 200px auto;
+  width:  fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0 20px;
+    margin:  50px auto;
+  }
+}
+
+h2 {
+  margin: 35px 0 10px 0;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  font-size:   1em;
+  margin-left: 2px;
+}
+
+input:not([type=checkbox]) {
+  width:     250px;
+  padding:   2px 4px;
+  font-size: 0.85em;
+}
+
+input[type=checkbox],
+input[type=checkbox] ~ label {
+  display: inline;
+}
+
+div:has(input[type=checkbox]) {
+  margin-top: 5px;
+}
+
+@media (pointer: fine) {
+  input[type=checkbox] {
+    height: 13px;
+  }
+}
+
+a {
+  color: #0055ee;
+}
+
+a:hover, a:focus {
+  color: #0033cc;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #5599ff;
+  }
+
+  a:hover, a:focus {
+    color: #5588dd;
+  }
+}
+
+#title {
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-42px);
+}
+
+#title img {
+  margin-right: 10px;
+}
+
+#title h1 {
+  display: inline;
+  margin:  0;
+}
+
+@media only screen and (max-width: 768px) {
+  #title {
+    transform: none;
+  }
+
+  #title img {
+    display: none;
+  }
+}
+
+#info {
+  margin-bottom: 0;
+}
+
+#checkboxes {
+  margin-top: 15px;
+}
+
+#matches {
+  margin-top: 10px;
+}
+
+#matches p {
+  margin: 0 0 4px 0;
+}
+
+#matches p button {
+  margin-right: 6px;
+  padding: 0.5px 2.5px 0;
+  line-height: 1;
+}
