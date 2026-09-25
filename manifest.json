@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "default_locale": "en",
-  "name": "Acidity",
+  "name": "Acidity - View Page Archives",
   "description": "Navigate to archived versions of pages.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "128": "images/icon.png",
     "512": "images/icon.png"
