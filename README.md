@@ -1,4 +1,4 @@
-# Acidity
+# Acidity (Chrome)
 
 Chrome extension for [archive.ph](https://archive.ph).
 
