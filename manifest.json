@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "Acidity - View Page Archives",
   "description": "Navigate to archived versions of pages.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icons": {
     "128": "assets/icon.png",
     "512": "assets/icon.png"
